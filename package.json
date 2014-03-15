@@ -1,0 +1,26 @@
+{
+  "name": "mqtt_os_status",
+  "version": "0.0.1",
+  "description": "Publishes OS status to an mqtt broker",
+  "main": "./lib/MqttOsStatus",
+  "keywords": [
+    "mqtt",
+    "os",
+    "status"
+  ],
+  "bin": {
+    "mqtt_os_status": "./bin/mqtt_os_status"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "author": "Oskar Hagberg <oskar.hagberg@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mqtt": "^0.3.7",
+    "commander": "^2.1.0"
+  }
+}
