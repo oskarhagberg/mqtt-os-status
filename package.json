@@ -2,22 +2,31 @@
   "name": "mqtt_os_status",
   "version": "0.0.1",
   "description": "Publishes OS status to an mqtt broker",
-  "main": "./lib/MqttOsStatus",
   "keywords": [
     "mqtt",
     "os",
     "status"
   ],
-  "bin": {
-    "mqtt_os_status": "./bin/mqtt_os_status"
+  "author": {
+    "name": "Oskar Hagberg",
+    "email": "oskar.hagberg@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oskarhagberg/mqtt-os-status.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "main": "./lib/MqttOsStatus",
   "engines": {
     "node": "*"
   },
-  "author": "Oskar Hagberg <oskar.hagberg@gmail.com>",
+  "bin": {
+    "mqtt_os_status": "./bin/mqtt_os_status"
+  },
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/oskarhagberg/mqtt-os-status",
   "license": "MIT",
   "dependencies": {
     "mqtt": "^0.3.7",
