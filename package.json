@@ -29,7 +29,7 @@
   "homepage": "https://github.com/oskarhagberg/mqtt-os-status",
   "license": "MIT",
   "dependencies": {
-    "mqtt": "^0.3.7",
-    "commander": "^2.1.0"
+    "mqtt": "0.3.x",
+    "commander": "2.1.x"
   }
 }
