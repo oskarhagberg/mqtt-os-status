@@ -58,8 +58,9 @@
 NAME="OS Status to MQTT"
 NODE_BIN_DIR="/home/pi/node-v0.10.2-linux-arm-pi/bin"
 NODE_PATH="/home/pi/node-v0.10.2-linux-arm-pi/lib/node_modules"
-APPLICATION_DIRECTORY="/home/pi/mqtt-os-status/bin"
+APPLICATION_DIRECTORY="/home/pi/node-v0.10.2-linux-arm-pi/bin"
 APPLICATION_START="mqtt-os-status"
+# APPLICATION_START="mqtt-os-status --username pi --pwd password"
 PIDFILE="/var/run/mqtt-os-status.pid"
 LOGFILE="/var/log/mqtt-os-status.log"
 
