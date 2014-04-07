@@ -1,6 +1,6 @@
 {
   "name": "mqtt_os_status",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Publishes OS status to an mqtt broker",
   "keywords": [
     "mqtt",
