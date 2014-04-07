@@ -1,6 +1,6 @@
 {
-  "name": "mqtt_os_status",
-  "version": "0.1.0",
+  "name": "mqtt-os-status",
+  "version": "0.1.1",
   "description": "Publishes OS status to an mqtt broker",
   "keywords": [
     "mqtt",
@@ -23,7 +23,7 @@
     "node": "*"
   },
   "bin": {
-    "mqtt_os_status": "./bin/mqtt_os_status"
+    "mqtt-os-status": "./bin/mqtt-os-status"
   },
   "readmeFilename": "README.md",
   "homepage": "https://github.com/oskarhagberg/mqtt-os-status",
